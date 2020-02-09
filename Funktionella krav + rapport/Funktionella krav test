@@ -1,0 +1,25 @@
+Användningsfall:
+
+Ett företag som säljer biljetter till konserter behöver ett nytt
+system för att registrera och lagra försäljningar. De vill kunna
+sälja biljetter med olika priser beroende på ålder: biljetter för
+vuxna kostar 100 kr, biljetter för pensionärer kostar 75kr och
+barn kostar endast 25 kr. Om en familj kommer och vill köpa
+biljetter skall biljetterna antingen kunna skrivas in i systemet
+en och en, eller alla samtidigt.
+De vill även kunna se hur många biljetter som sålts av varje
+typ samt den totala summan vid ett senare tillfälle. Om en familj
+ångrar sitt köp ska de kunna göra ett återköp. Detta måste
+registreras och sparas för att ekonomiavdelningen ska kunna
+inkludera det i bokföringen i slutet på månaden.
+Funktionella krav:
+
+Man ska kunna köpa biljetter och ens ålder bestämmer priset på biljetten
+Barn = 25 kr
+Vuxen = 100 kr
+Pensionär = 75kr
+Man ska kunna köpa flera biljetter som familj/grupp, då skrivs biljetterna in antingen en åt gången eller alla på en gång
+Man ska kunna se hur många biljetter av varje sort som har sålts, detta ska kunna visas i en fil
+Man ska kunna se den totala summan av alla sålda biljetter, detta ska kunna visas i en fil
+Man ska kunna genomföra återköp av sålda biljetter, dessa ska registreras i en fil för senare bruk
+Alla sålda biljetter ska registreras i en eller flera filer för att kunna visas vid senare tillfälle
